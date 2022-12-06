@@ -11,6 +11,7 @@ function App() {
 
   useEffect(() => {
     navigate('/about')
+    // eslint-disable-next-line
   }, [])
 
   return (

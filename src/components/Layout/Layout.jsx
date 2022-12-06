@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Layout.module.scss'
 import { Link } from 'react-router-dom'
-import { Button, Space } from 'antd';
+import { Button } from 'antd';
 
 const Layout = ({ children }) => {
     return (

@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Services.module.scss";
-import background from "../../assets/services_background.jpg";
 
 const Services = () => {
   return (

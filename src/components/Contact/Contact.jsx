@@ -1,8 +1,16 @@
 import React from 'react'
+import Form from '../Form/Form'
+import styles from './Contact.module.scss'
 
- const Contact = () => {
+const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className={styles.main}>
+      <div className={styles.wrapper}>
+        <div className={styles.contents_block}>
+          <Form />
+        </div>
+      </div>
+    </div>
   )
 }
 
